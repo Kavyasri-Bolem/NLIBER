@@ -1,0 +1,122 @@
+ body {
+  background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+}
+
+.box-form {
+  margin: 0 auto;
+  width: 80%;
+  height:550px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #090b6f85;
+  margin-top: 70px;
+}
+@media (max-width: 970px) {
+  .box-form {
+    flex-flow: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+.box-form div {
+  height: auto;
+}
+.box-form .left {
+  color: #FFFFFF;
+  background-image: url("images/loginlogo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box-form .left .overlay {
+  padding: 0px;
+  width: 730px;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box-form .right {
+  padding: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+@media (max-width: 980px) {
+  .box-form .right {
+    width: 100%;
+  }
+}
+.box-form .right h5 {
+  padding-top: 10px;
+  margin-top: 40px;
+  font-size: 6vmax;
+  line-height: 0;
+  font-weight: 5px;
+  font-family:italic;
+  color: #a0128199;
+  margin-bottom:85px;
+}
+.box-form .right .inputs {
+  overflow: hidden;
+}
+.box-form .right input {
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color:black ;
+  border-bottom: 3px solid #113e97;
+}
+.box-form .right input:hover {
+  width: 100%;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color:rgb(30, 2, 108) ;
+  border-bottom: 3px solid #e28821;
+}
+.box-form .right button {
+  color:#13052985;
+  font-size: 23px;
+  margin-top:20px;
+  padding: 12px 35px;
+  border: 5px solid rgb(10, 119, 10);
+  border-radius: 50px;
+  font-weight: 10px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #4df51ea6;
+  background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+}
+.box-form .right button:hover {
+  color:white;
+  font-size: 23px;
+  margin-top:20px;
+  padding: 12px 35px;
+  border: 5px solid rgb(119, 10, 88);
+  border-radius: 50px;
+  font-weight: 15px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px 0px #c61ef5a6;
+  background-image: linear-gradient(135deg, #db30d2 10%, #ea4ee2 100%);
+}
